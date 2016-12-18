@@ -1,6 +1,6 @@
 # Agent
 
-My configurations for Shadowrocket/Potatso...
+My configurations for Shadowrocket
 
 ## Usage
 
@@ -8,14 +8,10 @@ My configurations for Shadowrocket/Potatso...
 
 「Config」>「+」> Paste in the URL of `Shadowrocket.conf` >「Remote Files」> Tap on the URL pasted > Select "Use Config" and wait
 
-### Potatso
-
 ## URL
 
 * Shadowrocket:
 [https://raw.githubusercontent.com/Phantr4x/Agent/master/Shadowrocket.Conf](https://raw.githubusercontent.com/Phantr4x/Agent/master/Shadowrocket.conf)
-
-### Potatso
 
 ## License
 [MIT License](https://opensource.org/licenses/MIT)
