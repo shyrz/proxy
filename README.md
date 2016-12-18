@@ -13,7 +13,7 @@ My configurations for Shadowrocket/Potatso...
 ## URL
 
 * Shadowrocket:
-[https://raw.githubusercontent.com/Phantr4x/Agent/master/Shadowrocket.Conf](https://raw.githubusercontent.com/Phantr4x/Agent/master/Shadowrocket.Conf)
+[https://raw.githubusercontent.com/Phantr4x/Agent/master/Shadowrocket.Conf](https://raw.githubusercontent.com/Phantr4x/Agent/master/Shadowrocket.conf)
 
 ### Potatso
 
