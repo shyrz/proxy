@@ -1,6 +1,6 @@
 # Agent
 
-My configurations for **Shadowrocket** / **AnyFlow**
+My configurations for **Shadowrocket** / **AnyFlow** ...
 
 ## Usage
 
@@ -24,4 +24,4 @@ My configurations for **Shadowrocket** / **AnyFlow**
   + AdBlock [https://raw.githubusercontent.com/Phantr4x/Agent/master/AnyFlow/AdBlock.conf](https://raw.githubusercontent.com/Phantr4x/Agent/master/AnyFlow/AdBlock.conf)
 
 ## License
-[MIT License](https://opensource.org/licenses/MIT)
+[MIT](https://opensource.org/licenses/MIT) License
