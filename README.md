@@ -23,5 +23,6 @@ My configurations for **Shadowrocket** / **AnyFlow** ...
   + Proxy [https://raw.githubusercontent.com/Phantr4x/Agent/master/AnyFlow/Proxy.conf](https://raw.githubusercontent.com/Phantr4x/Agent/master/AnyFlow/Proxy.conf)
   + AdBlock [https://raw.githubusercontent.com/Phantr4x/Agent/master/AnyFlow/AdBlock.conf](https://raw.githubusercontent.com/Phantr4x/Agent/master/AnyFlow/AdBlock.conf)
 
+  *Tips: Adblock rules are all `REJECT` now, I need some time to test them. Maybe some will be changed to `DROP` in the future.*
 ## License
 [MIT](https://opensource.org/licenses/MIT) License
