@@ -10,7 +10,7 @@ My configurations for **Shadowrocket** / **AnyFlow** ...
 
 ### AnyFlow
 
-**Config** > **Add Rule Group** > **Import from URL** > Paste in the URL of `Accelerate/Direct/Proxy/AdBlock.conf` > Wait for downloading and select
+**Config** > **Add Rule Group** > **Import from URL** > Paste in the URL of `Direct/Proxy/Reject/AdBlock/Telegram.conf` > Wait for downloading and select
 
 ## URL
 
@@ -18,11 +18,13 @@ My configurations for **Shadowrocket** / **AnyFlow** ...
 [https://raw.githubusercontent.com/Phantr4x/Agent/master/Shadowrocket/Shadowrocket.conf](https://raw.githubusercontent.com/Phantr4x/Agent/master/Shadowrocket/Shadowrocket.conf)
 
 * AnyFlow:
-  + Accelerate: [https://raw.githubusercontent.com/Phantr4x/Agent/master/AnyFlow/Accelerate.conf](https://raw.githubusercontent.com/Phantr4x/Agent/master/AnyFlow/Accelerate.conf)
-  + Direct [https://raw.githubusercontent.com/Phantr4x/Agent/master/AnyFlow/Direct.conf](https://raw.githubusercontent.com/Phantr4x/Agent/master/AnyFlow/Direct.conf)
-  + Proxy [https://raw.githubusercontent.com/Phantr4x/Agent/master/AnyFlow/Proxy.conf](https://raw.githubusercontent.com/Phantr4x/Agent/master/AnyFlow/Proxy.conf)
-  + AdBlock [https://raw.githubusercontent.com/Phantr4x/Agent/master/AnyFlow/AdBlock.conf](https://raw.githubusercontent.com/Phantr4x/Agent/master/AnyFlow/AdBlock.conf)
+  + 🌐 Direct [https://raw.githubusercontent.com/Phantr4x/Agent/master/AnyFlow/🌐.conf](https://raw.githubusercontent.com/Phantr4x/Agent/master/AnyFlow/🌐.conf)
+  + ☁️ Proxy [https://raw.githubusercontent.com/Phantr4x/Agent/master/AnyFlow/☁️.conf](https://raw.githubusercontent.com/Phantr4x/Agent/master/AnyFlow/☁️.conf)
+  + 🚫 Reject [https://raw.githubusercontent.com/Phantr4x/Agent/master/AnyFlow/🚫.conf](https://raw.githubusercontent.com/Phantr4x/Agent/master/AnyFlow/🚫.conf)
+  + ⛔️ AdBlock [https://raw.githubusercontent.com/Phantr4x/Agent/master/AnyFlow/⛔️.conf](https://raw.githubusercontent.com/Phantr4x/Agent/master/AnyFlow/⛔️.conf)
+  + 🚀 Accelerate [https://raw.githubusercontent.com/Phantr4x/Agent/master/AnyFlow/🚀.conf](https://raw.githubusercontent.com/Phantr4x/Agent/master/AnyFlow/🚀.conf)
 
-  *Tips: Adblock rules are all `REJECT` now, I need some time to test them. Maybe some will be changed to `DROP` in the future.*
+  *Tips: 🚫/⛔️ rules are all `REJECT` now, I need some time to test them. Maybe some will be changed to `DROP` in the future.*
+
 ## License
 [MIT](https://opensource.org/licenses/MIT) License
