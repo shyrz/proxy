@@ -1,8 +1,12 @@
 # Agent
 
-My configurations for **Shadowrocket** / **AnyFlow** ...
+My configurations for **Surge** / **Shadowrocket** / **AnyFlow** ...
 
 ## Usage
+
+### Surge
+
+**Config** > Tap on the **Download Configuration from URL** > Paste in the URL of `Surge.conf` and wait
 
 ### Shadowrocket
 
@@ -13,6 +17,9 @@ My configurations for **Shadowrocket** / **AnyFlow** ...
 **Config** > **Add Rule Group** > **Import from URL** > Paste in the URL of `Direct/Proxy/Reject/AdBlock/Telegram.conf` > Wait for downloading and select
 
 ## URL
+
+* Surge:
+[https://raw.githubusercontent.com/Phantr4x/Agent/master/Surge/Surge.conf](https://raw.githubusercontent.com/Phantr4x/Agent/master/Surge/Surge.conf)
 
 * Shadowrocket:
 [https://raw.githubusercontent.com/Phantr4x/Agent/master/Shadowrocket/Shadowrocket.conf](https://raw.githubusercontent.com/Phantr4x/Agent/master/Shadowrocket/Shadowrocket.conf)
