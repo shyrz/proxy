@@ -1,37 +1,19 @@
-# Agent
+# Proxy
 
-My configurations for **Surge** / **Shadowrocket** / **AnyFlow** ...
+Configurations for [Surge](https://nssurge.com/)
 
 ## Usage
 
 ### Surge
 
-**Config** > Tap on the **Download Configuration from URL** > Paste in the URL of `Surge.conf` and wait
+#### Script
 
-### Shadowrocket
+[Script Manual](https://github.com/shyrz/proxy/blob/master/surge/script/README.md)
 
-**Config** > **+** > Paste in the URL of `Shadowrocket.conf` > **Remote Files** > Tap on the URL pasted > Select **Use Config** and wait
+#### Module
 
-### AnyFlow
-
-**Config** > **Add Rule Group** > **Import from URL** > Paste in the URL of `Direct/Proxy/Reject/AdBlock/Telegram.conf` > Wait for downloading and select
-
-## URL
-
-* Surge:
-[https://raw.githubusercontent.com/Phantr4x/Agent/master/Surge/Surge.conf](https://raw.githubusercontent.com/Phantr4x/Agent/master/Surge/Surge.conf)
-
-* Shadowrocket:
-[https://raw.githubusercontent.com/Phantr4x/Agent/master/Shadowrocket/Shadowrocket.conf](https://raw.githubusercontent.com/Phantr4x/Agent/master/Shadowrocket/Shadowrocket.conf)
-
-* AnyFlow:
-  + 🌐 Direct [https://raw.githubusercontent.com/Phantr4x/Agent/master/AnyFlow/🌐.conf](https://raw.githubusercontent.com/Phantr4x/Agent/master/AnyFlow/🌐.conf)
-  + ☁️ Proxy [https://raw.githubusercontent.com/Phantr4x/Agent/master/AnyFlow/☁️.conf](https://raw.githubusercontent.com/Phantr4x/Agent/master/AnyFlow/☁️.conf)
-  + 🚫 Reject [https://raw.githubusercontent.com/Phantr4x/Agent/master/AnyFlow/🚫.conf](https://raw.githubusercontent.com/Phantr4x/Agent/master/AnyFlow/🚫.conf)
-  + ⛔️ AdBlock [https://raw.githubusercontent.com/Phantr4x/Agent/master/AnyFlow/⛔️.conf](https://raw.githubusercontent.com/Phantr4x/Agent/master/AnyFlow/⛔️.conf)
-  + 🚀 Accelerate [https://raw.githubusercontent.com/Phantr4x/Agent/master/AnyFlow/🚀.conf](https://raw.githubusercontent.com/Phantr4x/Agent/master/AnyFlow/🚀.conf)
-
-  *Tips: 🚫/⛔️ rules are all `REJECT` now, I need some time to test them. Maybe some will be changed to `DROP` in the future.*
+[Module Manual](https://github.com/shyrz/proxy/blob/master/surge/module/README.md)
 
 ## License
-[MIT](https://opensource.org/licenses/MIT) License
+
+All content released under the [MIT](https://opensource.org/licenses/MIT) License.
