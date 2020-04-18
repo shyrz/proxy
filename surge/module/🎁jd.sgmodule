@@ -4,7 +4,6 @@
 
 [Script]
 cron "0 0 0 * * *" script-path=https://raw.githubusercontent.com/shyrz/proxy/master/surge/script/jd/jd.js
-cron "* */480 * * * *" script-path=https://raw.githubusercontent.com/shyrz/proxy/master/surge/script/jd/jd.js
 
 [MITM]
 hostname = %APPEND% api.m.jd.com
