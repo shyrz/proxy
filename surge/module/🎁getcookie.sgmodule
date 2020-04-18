@@ -1,0 +1,13 @@
+#!name=🎁GetCookie
+#!desc=Get cookie for daily bonus scripts.\n[Support]: V2ex.com, jd.com
+#!system=ios
+
+[Script]
+
+v2ex.js = type=http-request,pattern=^https:\/\/www\.v2ex\.com\/mission\/daily,script-path=https://raw.githubusercontent.com/shyrz/proxy/master/surge/script/v2ex/v2ex.cookie.js
+
+JD_DailyBonus.js = type=http-request,pattern=https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean,script-path=https://raw.githubusercontent.com/shyrz/proxy/master/surge/script/jd/jd.js
+
+
+[MITM]
+hostname = %APPEND% *.v2ex.com, api.m.jd.com

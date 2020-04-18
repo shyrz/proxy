@@ -1,0 +1,10 @@
+#!name=🎁JD
+#!desc=Safari浏览器打开登录https://bean.m.jd.com, 点击签到并且出现签到日历后, 若通知「获得cookie成功」则可以使用此签到脚本。
+#!system=ios
+
+[Script]
+http-request https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean max-size=0,script-path=https://raw.githubusercontent.com/shyrz/proxy/master/surge/script/jd/jd.js
+cron "5 0 * * *" script-path=https://raw.githubusercontent.com/shyrz/proxy/master/surge/script/jd/jd.js
+
+[MITM]
+hostname = %APPEND% api.m.jd.com

@@ -1,0 +1,8 @@
+#!name=🎁V2ex
+#!desc=登录 https://www.v2ex.com → 访问 https://www.v2ex.com/mission/daily
+
+[Script]
+cron "10 0 0 * * *" script-path=https://raw.githubusercontent.com/shyrz/proxy/master/surge/script/v2ex/v2ex.js
+
+[MITM]
+*.v2ex.com
