@@ -1,0 +1,11 @@
+#!name=🛍️历史价格趋势
+#!desc=Historical price trend
+#!system=ios
+
+[Script]
+http-response ^https?://api\.m\.jd\.com/client\.action\?functionId=(wareBusiness|serverConfig) requires-body=1,script-path=https://raw.githubusercontent.com/shyrz/proxy/master/surge/script/jd/jd-price-trend.js
+http-request ^http://.+/amdc/mobileDispatch requires-body=1,script-path=https://raw.githubusercontent.com/shyrz/proxy/master/surge/script/taobao/taobao-price-trend.js
+http-response ^https?://trade-acs\.m\.taobao\.com/gw/mtop\.taobao\.detail\.getdetail requires-body=1,script-path=https://raw.githubusercontent.com/shyrz/proxy/master/surge/script/taobao/taobao-price-trend.js
+
+[MITM]
+hostname = %APPEND% api.m.jd.com, amdc.m.taobao.com, trade-acs.m.taobao.com
