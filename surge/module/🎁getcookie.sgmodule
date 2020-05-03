@@ -4,10 +4,12 @@
 
 [Script]
 
-v2ex.js = type=http-request,pattern=^https:\/\/www\.v2ex\.com\/mission\/daily,script-path=https://raw.githubusercontent.com/shyrz/proxy/master/surge/script/v2ex/v2ex.cookie.js
+jd.cookie.js = type=http-request,pattern=https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean,script-path=https://raw.githubusercontent.com/shyrz/proxy/master/surge/script/jd/jd.js
 
-jd.js = type=http-request,pattern=https:\/\/api\.m\.jd\.com\/client\.action.*functionId=signBean,script-path=https://raw.githubusercontent.com/shyrz/proxy/master/surge/script/jd/jd.js
+v2ex.cookie.js = type=http-request,pattern=^https:\/\/www\.v2ex\.com\/mission\/daily,script-path=https://raw.githubusercontent.com/shyrz/proxy/master/surge/script/v2ex/v2ex.cookie.js
+
+neteasemusic.cookie.js = script-path=https://raw.githubusercontent.com/chavyleung/scripts/master/neteasemusic/neteasemusic.cookie.js,type=http-request,pattern=^https?:\/\/music\.163\.com\/?.?
 
 
 [MITM]
-hostname = %APPEND% *.v2ex.com, api.m.jd.com
+hostname = %APPEND% api.m.jd.com, *.v2ex.com, music.163.com
