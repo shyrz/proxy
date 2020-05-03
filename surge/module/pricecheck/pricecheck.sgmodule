@@ -1,5 +1,5 @@
-#!name=🛍️历史价格趋势
-#!desc=Historical price trend
+#!name=PriceCheck
+#!desc=Price Check for JD/Taobao
 #!system=ios
 
 [Script]
